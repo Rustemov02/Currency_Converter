@@ -1,0 +1,44 @@
+section h1{  
+    display: inline-block; 
+    font-size: 3.4rem; 
+    padding-top: 60px;
+    padding-bottom: 25px; 
+    width: 65%; 
+    margin: auto; 
+}
+section{ 
+    display: flex;
+    flex-direction: column;
+}
+.container { 
+    display: flex;
+    justify-content: space-evenly;
+}
+.currency{ 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;   
+}
+.currency p{
+    padding: 0.5rem 0;
+}
+.currency .mid{  
+    display: flex; 
+    justify-content: center;   
+    border: solid #9F9F9F 1px;  
+}
+.currency .mid span{  
+    padding: 10px 20px; 
+    cursor: pointer; 
+} 
+#numb{ 
+    padding: 30px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: solid 1px #9F9F9F;
+    width: 100%;
+}  
+.active{
+    background-color: #833AE0;
+    color: white;
+}

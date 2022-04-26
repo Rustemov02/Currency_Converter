@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* , body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{ 
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;   
+    background-color: #F5F5F6; 
+} 
+
+/* LOGO */
+.logo{ 
+    margin-left: 62px; 
+} 
+/*  LIST */
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{ 
+    font-size: 12px;
+    padding: 20px 20px ;
+    color: #959BA4;
+    font-family:   sans-serif;
+    font-weight: bold;
+    line-height: 12px;
+    cursor: pointer;
+}
+li:hover{
+    color: black;
+} 
+.black{
+    color: black;
+}
+/* BUTTON */
+#btn{  
+    padding: 12px 12px;
+    background-color: #fff;
+    font-weight: 700;
+    border: solid 1px #833AE0;
+    cursor : pointer ;
+}

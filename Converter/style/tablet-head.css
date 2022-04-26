@@ -1,0 +1,13 @@
+ul li{
+    display: none;
+}  
+header{ 
+    padding: 12px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+#btn{
+    background-color: #833AE0;
+    color : #fff ;
+    border-radius: 8px;
+}
